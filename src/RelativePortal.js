@@ -50,7 +50,7 @@ export default class RelativePortal extends React.Component {
     top: PropTypes.number,
     children: PropTypes.any,
     onOutClick: PropTypes.func,
-    component: PropTypes.string.isRequired,
+    component: PropTypes.isRequired,
   };
 
   static defaultProps = {
